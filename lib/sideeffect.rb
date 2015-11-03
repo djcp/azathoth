@@ -22,7 +22,6 @@ class SideEffect
       [
         'inflamed',
         'elevated',
-        'lessened',
         'increased',
         'paranoid',
         'hallucinatory',
@@ -31,6 +30,12 @@ class SideEffect
         'infrequent',
         'swollen',
         'septic',
+        'spastic',
+        'restless',
+        'night',
+        'explosive',
+        'traumatic',
+        'regressive',
       ].sample + ' '
     else
       ''
@@ -55,6 +60,20 @@ class SideEffect
        'cysts',
        'disorders',
        'gout',
+       'terrors',
+       'mutation',
+       'levitation',
+       'teleportation',
+       'murmuring',
+       'ghostly voices',
+       'phasing',
+       'psychosis',
+       'gamergating',
+       'negging',
+       'mansplaining',
+       'torsion',
+       'sublimation',
+       'fermentation',
     ].sample
   end
 
